@@ -4,16 +4,16 @@
 ##
 
 #### 1. You'll need Apache with PHP installed on your machine.
-    This can be done with 
-         - `sudo apt update`
-         - `sudo apt upgrade`
-         - Install Apache `sudo apt install apache2`
-         - Install PHP `sudo apt install php`
-    After you go to ![http://localhost](http://localhost) and check if the Apache Default page shows up
+   This can be done with 
+       - `sudo apt update`
+       - `sudo apt upgrade`
+       - Install Apache `sudo apt install apache2`
+       - Install PHP `sudo apt install php`
+   After you go to ![http://localhost](http://localhost) and check if the Apache Default page shows up
 
 #### 2. Project Directory and Source Code
-    Create the new site for apache service `sudo mkdir /var/www/[site-name]`
-    You then need to download the source code on the machine either through git clone or download the zip file from github  at ![GitHub](https://github.com/logosrhema01/fruity-memory) to the /var/www/[site-name]
+   Create the new site for apache service `sudo mkdir /var/www/[site-name]`
+   You then need to download the source code on the machine either through git clone or download the zip file from github  at ![GitHub](https://github.com/logosrhema01/fruity-memory) to the /var/www/[site-name]
 
 #### 3. Give yourself access, and the WebServer access and set access levels
     ```
