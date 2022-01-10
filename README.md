@@ -16,15 +16,14 @@
    - You then need to download the source code on the machine either through git clone or download the zip file from github  at ![GitHub](https://github.com/logosrhema01/fruity-memory) to the /var/www/[site-name]
 
 #### 3. Give yourself access, and the WebServer access and set access levels
-    ```
-    sudo chown $USER:www-data /var/www/[site-name]
-    sudo chmod g+s /var/www/[site-name]
-    sudo chmod o-rwx /var/www/[site-name]
-    ```
+   `sudo chown $USER:www-data /var/www/[site-name]`
+   `sudo chmod g+s /var/www/[site-name]`
+   `sudo chmod o-rwx /var/www/[site-name]`
+
 #### 4. Add site to the Apache2 Configurations
-    - Find you config file, default location is /etc/apache2/sites-enabled
-    - Go to the DocumentRoot line and modiify saying /var/www/[site-name]
-    - Restart the service `sudo service apache2 restart`
+   - Find you config file, default location is /etc/apache2/sites-enabled
+   - Go to the DocumentRoot line and modiify saying /var/www/[site-name]
+   - Restart the service `sudo service apache2 restart`
                 
 #### 5. Visit the site and at ![http://localhost/[site-name]](http://localhost/[site-name])
 
