@@ -1,0 +1,24 @@
+{
+  "name": "memory-game-php",
+  "version": "1.0.0",
+  "description": "PHP Memory Game",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logosrhema01/memory-game-php.git"
+  },
+  "keywords": [
+    "PHP",
+    "MemoryGame",
+    "Game"
+  ],
+  "author": "Kelvin Nketia-Achiampong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logosrhema01/memory-game-php/issues"
+  },
+  "homepage": "https://github.com/logosrhema01/memory-game-php#readme"
+}
